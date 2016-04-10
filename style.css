@@ -1,0 +1,97 @@
+html {
+  background: url(img/background.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+#feedback-page {
+  text-align: center;
+}
+
+#form-main {
+  width: 100%;
+  float: left;
+  padding-top: 0px;
+}
+
+#logo{
+
+}
+
+#title {
+  font-family: 'Loved by the King', cursive;
+  color: #00ccb1;
+  font-size: 45px;
+}
+
+#form-div {
+  background-color: rgba(72, 72, 72, 0.4);
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  height: auto;
+  width: 450px;
+  float: left;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+  color: #3c3c3c;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  border-radius: 30px 5px 30px 5px;
+  -moz-border-radius: 30px 5px 30px 5px;
+  -webkit-border-radius: 30px 5px 30px 5px;
+  border: 3px solid #00CCB1;
+  text-align: center;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 13px;
+  margin-bottom: 10px;
+  width: 40%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.feedback-input:focus {
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #00CCB1;
+  color: #00CCB1;
+  outline: none;
+  padding: 13px 13px 13px 13px;
+}
+
+
+
+
+span {
+  color: #00ccb1;
+}
+
+
+
+@media only screen and (max-width: 580px) {
+  #form-div {
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
